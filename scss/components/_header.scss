@@ -1,0 +1,110 @@
+.c-header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    // border: 1px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background: $primary;
+    font-weight: 900;
+
+    &__list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__item {
+        margin-right: 24px;
+    }
+
+    &__link {
+        color: $text;
+        text-decoration: none;
+        
+        &:hover {
+            color: $accent;
+        }
+    }
+
+    &__button {
+        background: $accent;
+        font-weight: 900;
+        color: white;
+        border: none;
+        padding: 7px 14px;
+        border-bottom: 3px solid darken($accent, 20%);
+        transition: transform cubic-bezier(0.215, 0.610, 0.355, 1) .2s, border 0s ease-out;
+        outline: none;
+        
+        &:hover {
+            transform: translateY(-2px);
+        }
+        
+        &:active {
+            border-width: 2px;
+            transform: translateY(1px);
+        }
+    }
+
+    &__burger {
+        display: none;
+        position: fixed;
+        top: 5px;
+        right: 12px;
+        background: $primary;
+        color: $accent;
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        z-index: 999;
+        // transform: rotate(90deg);
+        opacity: 1;
+        border: 1px solid white;
+    }
+
+    // @include iphone-8 {
+    //     position: fixed;
+        
+    //     position: fixed;
+    //     background: $primary;
+    //     top: 0;
+    //     left: unset;
+    //     width: 50vw;
+    //     height: 100vh;
+    //     right: -50vw;
+    //     font-size: 18px;
+    //     transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     &--active {
+    //         right: 0;
+    //     }
+    //     // &__nav {
+    //     // }
+        
+    //     &__list {
+    //         flex-direction: column;
+    //         align-items: center;
+    //         justify-content: center;
+    //         height: 100%;
+    //     }
+        
+    //     &__item {
+    //         margin: 20px 0;
+    //         text-align: center;
+    //     }
+
+    //     &__burger {
+    //         display: flex;
+    //     }
+       
+    // }
+}

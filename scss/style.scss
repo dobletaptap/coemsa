@@ -1,3 +1,7 @@
+$primary: #FFF;
+$accent: #BD3232;
+$text: #181818;
+
 * {
     box-sizing: border-box;
 }
@@ -5,9 +9,13 @@
 body {
     margin: 0;
     padding: 0;
+    color: $text;
 }
 
 // * SECTION UTILS
 @import './utils/reset';
 @import './utils/icons';
 @import './utils/wrapper';
+
+// * SECTION COMPONENTS
+@import './components/header';

@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  color: #181818;
 }
 
 /**
@@ -222,5 +223,93 @@ textarea {
 .u-wrapper {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.c-header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 40px;
+  background: #FFF;
+  font-weight: 900;
+}
+
+.c-header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.c-header__item {
+  margin-right: 24px;
+}
+
+.c-header__link {
+  color: #181818;
+  text-decoration: none;
+}
+
+.c-header__link:hover {
+  color: #BD3232;
+}
+
+.c-header__button {
+  background: #BD3232;
+  font-weight: 900;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-bottom: 3px solid #6c1d1d;
+  -webkit-transition: border 0s ease-out, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  transition: border 0s ease-out, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, border 0s ease-out;
+  transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, border 0s ease-out, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  outline: none;
+}
+
+.c-header__button:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.c-header__button:active {
+  border-width: 2px;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+.c-header__burger {
+  display: none;
+  position: fixed;
+  top: 5px;
+  right: 12px;
+  background: #FFF;
+  color: #BD3232;
+  font-size: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+  opacity: 1;
+  border: 1px solid white;
 }
 /*# sourceMappingURL=style.css.map */
