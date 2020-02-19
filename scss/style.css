@@ -231,18 +231,22 @@ textarea {
   top: 0;
   right: 0;
   left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 40px;
+  padding: 10px 0;
   background: #FFF;
   font-weight: 900;
+}
+
+.c-header__nav {
+  -ms-grid-column-align: left;
+      justify-self: left;
 }
 
 .c-header__list {
@@ -266,6 +270,10 @@ textarea {
   color: #BD3232;
 }
 
+.c-header__logo {
+  width: 180px;
+}
+
 .c-header__button {
   background: #BD3232;
   font-weight: 900;
@@ -278,6 +286,8 @@ textarea {
   transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, border 0s ease-out;
   transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, border 0s ease-out, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
   outline: none;
+  -ms-grid-column-align: right;
+      justify-self: right;
 }
 
 .c-header__button:hover {

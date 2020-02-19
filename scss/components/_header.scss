@@ -5,12 +5,17 @@
     right: 0;
     left: 0;
     // border: 1px solid yellow;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
-    padding: 10px 40px;
+    padding: 10px 0;
     background: $primary;
     font-weight: 900;
+
+    &__nav {
+        justify-self: left;
+    }
 
     &__list {
         display: flex;
@@ -31,6 +36,10 @@
         }
     }
 
+    &__logo {
+        width: 180px;
+    }
+
     &__button {
         background: $accent;
         font-weight: 900;
@@ -40,6 +49,7 @@
         border-bottom: 3px solid darken($accent, 20%);
         transition: transform cubic-bezier(0.215, 0.610, 0.355, 1) .2s, border 0s ease-out;
         outline: none;
+        justify-self: right;
         
         &:hover {
             transform: translateY(-2px);
