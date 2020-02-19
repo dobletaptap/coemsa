@@ -1,3 +1,13 @@
-body {
-    background: gray;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+// * SECTION UTILS
+@import './utils/reset';
+@import './utils/icons';
+@import './utils/wrapper';
