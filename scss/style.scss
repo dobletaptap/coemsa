@@ -1,6 +1,9 @@
 $primary: #FFF;
 $accent: #BD3232;
 $text: #181818;
+$pegaso: #20201F;
+$impacto: #101D31;
+$boga: #1D1D1B;
 
 * {
     box-sizing: border-box;
@@ -20,3 +23,4 @@ body {
 
 // * SECTION COMPONENTS
 @import './components/header';
+@import './components/hero';

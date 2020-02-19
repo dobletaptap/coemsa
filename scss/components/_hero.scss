@@ -1,0 +1,45 @@
+.c-hero {
+    text-align: center;
+    padding: 150px 0;
+
+    &__image-container {
+        display: grid;
+        grid-template-columns: repeat(3, 380px);
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &__link {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &--pegaso {
+            background: $pegaso;
+        }
+
+        &--impacto {
+            background: $impacto;
+        }
+
+        &--boga {
+            background: $boga;
+        }
+    }
+
+    &__image {
+        width: 50%;
+    }
+
+    &__title {
+        font-size: 2.5em;
+    }
+
+    &__text {
+        font-size: 1.5em;
+        max-width: 72%;
+        margin: 0 auto;
+    }
+}
