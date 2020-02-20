@@ -4,6 +4,7 @@ $text: #181818;
 $pegaso: #20201F;
 $impacto: #101D31;
 $boga: #1D1D1B;
+$gray: rgba(196, 196, 196, 0.25);
 
 * {
     box-sizing: border-box;
@@ -27,3 +28,4 @@ body {
 @import './components/air';
 @import './components/strategy';
 @import './components/leader';
+@import './components/quote';

@@ -1,0 +1,26 @@
+.c-quote {
+    background: $gray;
+    height: 470px;
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__image {
+        width: 194px;
+        height: 194px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 45px;
+    }
+
+    &__text {
+        font-size: 2em;
+        font-weight: 900;
+        max-width: 700px;
+    }
+}
