@@ -1,0 +1,14 @@
+.c-strategy {
+    padding: 75px;
+    
+    &__title {
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin: 0;
+    }
+}

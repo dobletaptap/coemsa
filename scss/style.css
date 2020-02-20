@@ -388,4 +388,19 @@ textarea {
   -o-object-position: center;
      object-position: center;
 }
+
+.c-strategy {
+  padding: 75px;
+}
+
+.c-strategy__title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.c-strategy__text {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */
