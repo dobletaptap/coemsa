@@ -500,4 +500,25 @@ textarea {
   font-size: 1.5em;
   font-weight: 900;
 }
+
+.c-footer {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.c-footer__title {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.c-footer__link, .c-footer__copyright {
+  display: block;
+  color: rgba(29, 29, 27, 0.5);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.c-footer__link:hover {
+  color: #181818;
+}
 /*# sourceMappingURL=style.css.map */

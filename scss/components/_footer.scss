@@ -1,0 +1,22 @@
+.c-footer {
+    text-align: center;
+    padding-top: 50px;
+
+    &__title {
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+    &__link, &__copyright {
+        display: block;
+        color: rgba(29, 29, 27, 0.5);
+        text-decoration: none;
+        font-weight: 900;
+    }
+
+    &__link {
+        &:hover {
+            color: $text;
+        }
+    }
+}
