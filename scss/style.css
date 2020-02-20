@@ -241,6 +241,12 @@ textarea {
   top: 0;
   right: 0;
   left: 0;
+  padding: 10px 0;
+  background: #FFF;
+  font-weight: 900;
+}
+
+.c-header__content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -249,9 +255,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 10px 0;
-  background: #FFF;
-  font-weight: 900;
 }
 
 .c-header__nav {
@@ -411,6 +414,10 @@ textarea {
   font-size: 1.5em;
   font-weight: bold;
   margin: 0;
+}
+
+.c-leader {
+  padding: 69px 0;
 }
 
 .c-leader__content {

@@ -5,14 +5,16 @@
     right: 0;
     left: 0;
     // border: 1px solid yellow;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
     padding: 10px 0;
     background: $primary;
     font-weight: 900;
-
+    
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
     &__nav {
         justify-self: left;
     }
