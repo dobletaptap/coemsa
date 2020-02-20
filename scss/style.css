@@ -472,4 +472,32 @@ textarea {
   font-weight: 900;
   max-width: 700px;
 }
+
+.c-mission {
+  margin-top: 75px;
+  background: rgba(196, 196, 196, 0.25);
+  text-align: center;
+  padding: 100px 0;
+}
+
+.c-mission__content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 468px 468px;
+      grid-template-columns: 468px 468px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 100px;
+}
+
+.c-mission__item-title {
+  font-size: 3em;
+  margin: 0;
+}
+
+.c-mission__item-text {
+  font-size: 1.5em;
+  font-weight: 900;
+}
 /*# sourceMappingURL=style.css.map */

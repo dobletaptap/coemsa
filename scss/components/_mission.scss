@@ -1,0 +1,23 @@
+.c-mission {
+    margin-top: 75px;
+    background: $gray;
+    text-align: center;
+    padding: 100px 0;
+
+    &__content {
+        display: grid;
+        grid-template-columns: 468px 468px;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    &__item-title {
+        font-size: 3em;
+        margin: 0;
+    }
+
+    &__item-text {
+        font-size: 1.5em;
+        font-weight: 900;
+    }
+}
