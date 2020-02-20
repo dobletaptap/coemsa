@@ -226,6 +226,10 @@ textarea {
   margin: 0 auto;
 }
 
+.u-wrapper--mini {
+  max-width: 73%;
+}
+
 .c-header {
   position: fixed;
   z-index: 999;
@@ -390,7 +394,7 @@ textarea {
 }
 
 .c-strategy {
-  padding: 75px;
+  padding: 75px 0;
 }
 
 .c-strategy__title {
@@ -402,5 +406,34 @@ textarea {
   font-size: 1.5em;
   font-weight: bold;
   margin: 0;
+}
+
+.c-leader__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-leader__image {
+  width: 189px;
+  height: 189px;
+  margin-right: 65px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.c-leader__title {
+  font-size: 2.1em;
+  margin: 0;
+}
+
+.c-leader__subtitle {
+  margin: 0;
+  font-weight: 100;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,8 @@
 .u-wrapper {
     max-width: 1440px;
     margin: 0 auto;
+
+    &--mini {
+        max-width: 73%;
+    }
 }

@@ -1,0 +1,24 @@
+.c-leader {
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        width: 189px;
+        height: 189px;
+        margin-right: 65px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    &__title {
+        font-size: 2.1em;
+        margin: 0;
+    }
+    
+    &__subtitle {
+        margin: 0;
+        font-weight: 100;
+    }
+}
