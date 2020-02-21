@@ -70,6 +70,14 @@ const changeDescription = order => {
     } 
 }
 
+window.onscroll = () => {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        $header.classList.add('c-header--shadow')
+    } else {
+        $header.classList.remove('c-header--shadow')
+    }
+}
+
 $buttonRight.addEventListener('click', () => {   
     changeImage('inc')
     changeDescription('inc')

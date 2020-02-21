@@ -244,6 +244,13 @@ textarea {
   padding: 10px 0;
   background: #FFF;
   font-weight: 900;
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s;
+}
+
+.c-header--shadow {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
 
 .c-header__content {
