@@ -45,7 +45,10 @@
 
     @include iphone-8 {
         font-size: 12px;
+        padding: 50px 0;
+        
         &__image-container {
+            gap: 10px;
             grid-template-columns: 1fr;
         }
     }
