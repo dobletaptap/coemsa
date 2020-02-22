@@ -760,6 +760,33 @@ textarea {
 }
 
 .c-mobile-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
   background: #BD3232;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 0;
+  display: none;
+}
+
+.c-mobile-nav__link {
+  text-decoration: none;
+}
+
+.c-mobile-nav__icon {
+  color: #FFF;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 540px) {
+  .c-mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=style.css.map */
