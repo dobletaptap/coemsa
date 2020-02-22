@@ -25,9 +25,16 @@
 
     @include iphone-8 {
         font-size: 12px;
-        
+
         &__content {
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__image {
+            margin: 0 0 15px 0;
         }
     }
 }
