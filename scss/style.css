@@ -349,6 +349,23 @@ textarea {
   border: 1px solid white;
 }
 
+@media screen and (max-width: 540px) {
+  .c-header {
+    position: initial;
+  }
+  .c-header__content {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .c-header__nav {
+    display: none;
+  }
+  .c-header__button {
+    display: none;
+  }
+}
+
 .c-hero {
   text-align: center;
   padding: 150px 0;

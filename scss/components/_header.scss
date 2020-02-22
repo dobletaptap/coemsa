@@ -87,6 +87,21 @@
         border: 1px solid white;
     }
 
+    @include iphone-8 {
+        position: initial;
+        &__content {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+        &__nav {
+            display: none;
+        }
+
+        &__button {
+            display: none;
+        }
+    }
+
     // @include iphone-8 {
     //     position: fixed;
         
