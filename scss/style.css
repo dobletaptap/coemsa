@@ -629,6 +629,12 @@ textarea {
   color: #181818;
 }
 
+@media screen and (max-width: 540px) {
+  .c-footer {
+    font-size: 12px;
+  }
+}
+
 .c-projects {
   border: 1px solid transparent;
   height: 650px;

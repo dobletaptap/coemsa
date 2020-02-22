@@ -19,4 +19,8 @@
             color: $text;
         }
     }
+
+    @include iphone-8 {
+        font-size: 12px;
+    }
 }
