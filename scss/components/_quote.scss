@@ -23,4 +23,12 @@
         font-weight: 900;
         max-width: 700px;
     }
+
+    @include iphone-8 {
+        font-size: 12px;
+        
+        &__content {
+            flex-direction: column;
+        }
+    }
 }
