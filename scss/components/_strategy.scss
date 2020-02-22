@@ -11,4 +11,9 @@
         font-weight: bold;
         margin: 0;
     }
+
+    @include iphone-8 {
+        font-size: 12px;
+        text-align: center;
+    }
 }

@@ -433,6 +433,13 @@ textarea {
   margin: 0;
 }
 
+@media screen and (max-width: 540px) {
+  .c-strategy {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
 .c-leader {
   padding: 69px 0;
 }
