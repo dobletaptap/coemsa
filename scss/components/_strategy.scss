@@ -3,7 +3,7 @@
     
     &__title {
         font-size: 2em;
-        margin-bottom: 20px;
+        margin: 0 0 20px 0;
     }
 
     &__text {
@@ -15,5 +15,6 @@
     @include iphone-8 {
         font-size: 12px;
         text-align: center;
+        padding: 50px 0;
     }
 }
