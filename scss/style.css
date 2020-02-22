@@ -598,9 +598,11 @@ textarea {
 @media screen and (max-width: 540px) {
   .c-mission {
     font-size: 12px;
+    margin-top: 50px;
+    padding: 50px 0;
   }
   .c-mission__content {
-    gap: 50px;
+    gap: 30px;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
