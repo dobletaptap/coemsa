@@ -424,6 +424,12 @@ textarea {
      object-position: center;
 }
 
+@media screen and (max-width: 540px) {
+  .c-air__image {
+    height: 250px;
+  }
+}
+
 .c-strategy {
   padding: 75px 0;
 }

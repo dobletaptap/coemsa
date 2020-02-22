@@ -5,4 +5,10 @@
         object-fit: cover;
         object-position: center;
     }
+
+    @include iphone-8 {
+        &__image {
+            height: 250px;
+        }
+    }
 }
