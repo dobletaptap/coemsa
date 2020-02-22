@@ -42,4 +42,11 @@
         max-width: 72%;
         margin: 0 auto;
     }
+
+    @include iphone-8 {
+        font-size: 12px;
+        &__image-container {
+            grid-template-columns: 1fr;
+        }
+    }
 }

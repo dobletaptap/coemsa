@@ -399,6 +399,16 @@ textarea {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 540px) {
+  .c-hero {
+    font-size: 12px;
+  }
+  .c-hero__image-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
 .c-air__image {
   width: 100%;
   height: 500px;
