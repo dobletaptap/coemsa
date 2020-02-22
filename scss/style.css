@@ -511,8 +511,8 @@ textarea {
 .c-mission__content {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 468px 468px;
-      grid-template-columns: 468px 468px;
+  -ms-grid-columns: (468px)[2];
+      grid-template-columns: repeat(2, 468px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -527,6 +527,17 @@ textarea {
 .c-mission__item-text {
   font-size: 1.5em;
   font-weight: 900;
+}
+
+@media screen and (max-width: 540px) {
+  .c-mission {
+    font-size: 12px;
+  }
+  .c-mission__content {
+    gap: 50px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 
 .c-footer {

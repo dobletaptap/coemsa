@@ -6,7 +6,7 @@
 
     &__content {
         display: grid;
-        grid-template-columns: 468px 468px;
+        grid-template-columns: repeat(2, 468px);
         justify-content: center;
         gap: 100px;
     }
@@ -19,5 +19,14 @@
     &__item-text {
         font-size: 1.5em;
         font-weight: 900;
+    }
+
+    @include iphone-8 {
+        font-size: 12px;
+        
+        &__content {
+            gap: 50px;
+            grid-template-columns: 1fr;
+        }
     }
 }
