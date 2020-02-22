@@ -644,6 +644,7 @@ textarea {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
   outline: none;
+  background: white;
 }
 
 .c-projects__button--left {
@@ -661,10 +662,32 @@ textarea {
   text-transform: uppercase;
   font-weight: 900;
   font-size: 3em;
+  text-align: center;
 }
 
 .c-projects__back {
   background: rgba(255, 255, 255, 0.95);
   padding: 12px 24px;
+}
+
+@media screen and (max-width: 540px) {
+  .c-projects {
+    font-size: 12px;
+    height: 500px;
+    border: none;
+  }
+  .c-projects__title {
+    font-size: 1.5em;
+  }
+  .c-projects__name {
+    bottom: 15px;
+    right: unset;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .c-projects__back {
+    width: 100%;
+    padding: 12px 8px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
