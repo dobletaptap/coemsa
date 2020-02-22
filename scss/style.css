@@ -235,6 +235,12 @@ textarea {
   height: 100%;
 }
 
+@media screen and (max-width: 540px) {
+  .u-wrapper--mini {
+    max-width: 90%;
+  }
+}
+
 .c-header {
   position: fixed;
   z-index: 999;

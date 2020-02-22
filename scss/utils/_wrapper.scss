@@ -11,4 +11,10 @@
         // border: 2px solid goldenrod;
         height: 100%;
     }
+
+    @include iphone-8 {
+        &--mini {
+            max-width: 90%;
+        }
+    }
 }
