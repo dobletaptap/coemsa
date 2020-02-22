@@ -466,6 +466,18 @@ textarea {
   font-weight: 100;
 }
 
+@media screen and (max-width: 540px) {
+  .c-leader {
+    font-size: 12px;
+  }
+  .c-leader__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .c-quote {
   background: rgba(196, 196, 196, 0.25);
   height: 470px;
