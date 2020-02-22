@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- * SECTION HEADER -->
-    <header class="c-header ">
+    <header class="c-header" id="inicio">
         <div class="c-header__content u-wrapper">
             <nav class="c-header__nav" id="nav">
                 <ul class="c-header__list">
@@ -46,7 +46,7 @@
              <img src="./img/image-1.jpg" alt="" class="c-air__image">
          </section>
          <!-- * SECTION STRAGEGY -->
-         <div class="u-wrapper u-wrapper--mini">
+         <div class="u-wrapper u-wrapper--mini" id="nosotros">
              <section class="c-strategy">
                  <h2 class="c-strategy__title">Estrategia Corporativa</h2>
                  <p class="c-strategy__text">Dar certeza y respaldo corporativo como un grupo en el cual existan diversas empresas hermanadas, que brinden soluciones integrales, con el objetivo de que, con base en su crecimiento, este grupo integre cada vez mas y mejores empresas.</p>
@@ -54,7 +54,7 @@
          </div>
     </div>
     <!-- * SECTION PROJECTS -->
-    <section class="c-projects">
+    <section class="c-projects" id="proyectos">
         <div class="u-wrapper u-wrapper--projects">
             <div class="c-projects__ui">
                 <h3 class="c-projects__title"><span class="c-projects__back">Estos son algunos de nuestros proyectos</span></h3>
@@ -103,7 +103,7 @@
     </section>
     <div class="u-wrapper">
         <!-- * SECTION FOOTER -->
-        <footer class="c-footer">
+        <footer class="c-footer" id="contacto">
             <h2 class="c-footer__title">Contacto</h2>
             <a href="tel:2281123456" class="c-footer__link">2281123456</a>
             <a href="mailto:contacto@coemsa.com" class="c-footer__link">contacto@coemsa.com</a>
@@ -111,12 +111,13 @@
         </footer>
     </div>
     <div class="c-mobile-nav">
-        <a href="#" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-home"></i></a>
-        <a href="#" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-question"></i></a>
-        <a href="#" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-projects"></i></a>
-        <a href="#" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-contact"></i></a>
+        <a href="#inicio" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-home"></i></a>
+        <a href="#nosotros" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-question"></i></a>
+        <a href="#proyectos" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-projects"></i></a>
+        <a href="#contacto" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-contact"></i></a>
         <a href="#" class="c-mobile-nav__link"><i class="c-mobile-nav__icon icon-money"></i></a>
     </div>
     <script src="./js/app.js"></script>
+    <script src="./js/zenscroll-min.js"></script>
 </body>
 </html>

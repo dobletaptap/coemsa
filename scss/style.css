@@ -445,7 +445,7 @@ textarea {
 @media screen and (max-width: 540px) {
   .c-hero {
     font-size: 12px;
-    padding: 50px 0;
+    padding: 0 0 50px 0;
   }
   .c-hero__image-container {
     gap: 10px;
@@ -669,6 +669,7 @@ textarea {
 @media screen and (max-width: 540px) {
   .c-footer {
     font-size: 12px;
+    padding-bottom: 54px;
   }
 }
 
